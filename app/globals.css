@@ -2,7 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+@font-face {
+  font-family: Graphik;
+  src: url(../app/fonts/GraphikTH-SemiBold.woff2);
+  src: url(../app/fonts/GraphikTH-Regular.woff2);
+}
+
+* {
+  font-family: Graphik;
+}
+
+@layer utilities {
+  .no-tap-highlight {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.no-select {
+  -webkit-user-select: none; /* สำหรับ Chrome/Safari */
+  -moz-user-select: none; /* สำหรับ Firefox */
+  -ms-user-select: none; /* สำหรับ IE10+ */
+  user-select: none; /* สำหรับเบราว์เซอร์ทั่วไป */
+}
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -24,4 +47,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */

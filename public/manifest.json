@@ -1,0 +1,46 @@
+{
+  "id": "1",
+  "name": "ขายหญ้าเทียม growgrass",
+  "short_name": "growgrass.com",
+  "description": "หญ้าเทียมคุณภาพดี ราคาถูกต้องที่นี่growgrass",
+  "statusBarStyle": "black-translucent",
+  "icons": [
+    {
+      "src": "./logo192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./logo384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./logo512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./desktop_cap1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "./iPhone_se_cap1.png",
+      "sizes": "720x1280",
+      "type": "image/png"
+    }
+  ],
+  "scope": "/",
+  "background_color": "#fBDA0C",
+  "theme_color": "#0057AD",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary"
+}
