@@ -1,3 +1,7 @@
+สำหรับขึ้นโปรเจค Nextjs14 แบบไวนะ setting PWA , คั้งค่าห้ามคลิกขวา , กดค้างไม่มีไฮไลท์ , ใส่ฟอนต์ ฯลฯ
+=> ที่เหลือไปแก้เอาว่าจะทำโปรเจคอะไร <=
+=======================================
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
