@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import DontRightClick from "./components/config/DontRightClick";
+import WebHeader from "./components/ui/WebHeader";
+import WebFooter from "./components/ui/WebFooter";
 
 // ข้อมูล metadata ที่จะใช้งานได้เฉพาะฝั่งเซิร์ฟเวอร์
 export const metadata: Metadata = {
@@ -27,7 +29,9 @@ export default function RootLayout({
     <html lang="en">
       <DontRightClick>
         <body className="antialiased no-select no-tap-highlight">
+          <WebHeader />
           {children}
+          <WebFooter />
         </body>
       </DontRightClick>
     </html>
